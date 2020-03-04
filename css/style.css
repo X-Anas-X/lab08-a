@@ -1,34 +1,79 @@
-ul.ul-1 li {
-    display: inline;
-    padding-left: 47px;
-}
 body {
-    line-height: 1;
-    width: 800px;
+    font-family: Helvetica, sans-serif;
+    background: #F5F5F5;
+  }
+  
+  header {
+    background: #444;
+    height: 100px;
+  }
+  nav {
+    width: 960px;
     margin: 0 auto;
-}
-li#img-1 img {
-    height: 70px;
-    width: 200px;
-}
-img#img-2 {
-    height: 450px;
-    width: 100%;
-}
-ul.ul-2 img {
+  }
+  nav img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 30px;
+  }
+  nav li {
+    float: left;
+    margin-top: 40px;
+    margin-right: 40px;
+    color: #bbbbbb;
+  }
+  
+  main {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .hero {
+    margin-top: 25px;
+  }
+  
+  .sub-banner {
+    margin-top: 25px;
+    margin-right: 25px;
+
+  }
+ 
+
+  
+  .section {
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .section > img {
+    float: left;
+    margin-right: 25px;
+  }
+.scroll {
     height: 300px;
-    width: 210px;
-}
-ul.ul-2 li {
-    display: inline-block;
-}
-.div-1 img {
-    height: 300px;
-    width: 31.1%;
-    padding-top: 25px;
-    padding-left: 15px;
-}
-img#img-3 {
-    height: 400px;
-    width: 50%;
-}
+    overflow: auto;
+    margin-bottom: 17px;
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  p {
+    padding-bottom: 15px;
+  }
+   button {
+    border: none;
+    background: #000;
+    padding: 8px 30px;
+    color: #FFF;
+    font-weight: 700;
+  }
+  button:hover {
+    background: blue;
+    transition-delay: 350ms;
+  }
+  
+  body footer {
+    clear: left;
+    height: 90px;
+    background: rgb(15, 15, 15);
+  }
